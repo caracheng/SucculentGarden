@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/alex"
+    tools:context=".generalCareGuide"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:background="@android:color/white">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:text="SUCCULENT GARDEN"
+        android:text="GENERAL CARE"
         android:textAlignment="center"
         android:textColor="#AAC2A9"
         android:textSize="60sp"
@@ -24,40 +24,50 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/generalcare"
+            android:id="@+id/indoorcare"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-
             android:layout_gravity="center"
-            android:layout_marginBottom="24dp"
             android:layout_marginLeft="48dp"
             android:layout_marginRight="48dp"
+            android:layout_marginBottom="24dp"
             android:alpha="0.80"
             android:background="#A2AD99"
-            android:text="General Care"
+            android:text="Indoor care"
             android:textColor="@android:color/white"
-            android:textSize="24sp"
-
-            />
-
+            android:textSize="24sp" />
 
         <Button
-            android:id="@+id/future"
+            android:id="@+id/outdoorcare"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_gravity="center"
-            android:layout_marginBottom="48dp"
+            android:layout_marginTop="24dp"
             android:layout_marginLeft="48dp"
             android:layout_marginRight="48dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
             android:alpha="0.70"
             android:background="#A2AD99"
-            android:text="Future capabilities"
+            android:text="outdoor care"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/warningsigns"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginBottom="24dp"
+            android:alpha="0.70"
+            android:background="#A2AD99"
+            android:text="Warning Signs"
             android:textSize="24sp" />
 
     </LinearLayout>
-
 
 </LinearLayout>
