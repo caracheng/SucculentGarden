@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Succulent Garden</string>
+    <string name= "indoorCareWater"></string>
 </resources>

@@ -18,7 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".generalCareGuide"></activity>
+        <activity android:name=".generalCareGuide" />
+        <activity android:name=".indoorCare" />
+        <activity android:name=".outdoorCare" />
+        <activity android:name=".warningSigns"></activity>
     </application>
 
 </manifest>
