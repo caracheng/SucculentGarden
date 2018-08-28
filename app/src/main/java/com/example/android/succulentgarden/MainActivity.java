@@ -22,5 +22,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(genCareIntent);
             }
         });
+
+        Button catalog = (Button) findViewById(R.id.catalog);
+        catalog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent catalogIntent = new Intent(MainActivity.this, catalogActivity.class);
+                startActivity(catalogIntent);
+            }
+        });
     }
 }

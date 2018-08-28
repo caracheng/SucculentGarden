@@ -21,7 +21,9 @@
         <activity android:name=".generalCareGuide" />
         <activity android:name=".indoorCare" />
         <activity android:name=".outdoorCare" />
-        <activity android:name=".warningSigns"></activity>
+        <activity android:name=".warningSigns" />
+        <activity android:name=".catalogActivity" />
+        <activity android:name=".editorActivity"></activity>
     </application>
 
 </manifest>
