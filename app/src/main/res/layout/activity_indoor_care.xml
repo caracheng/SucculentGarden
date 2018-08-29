@@ -6,17 +6,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".indoorCare"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="INDOOR CARE"
+        android:textAlignment="center"
+        android:textColor="#AAC2A9"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
 
-        android:text="@string/indoorLight"
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indoorStarter"
+        android:textColor="#AAC2A9"
+        android:paddingTop="16dp"
         />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/indoorLight"
+        android:textColor="#AAC2A9"
+        android:paddingTop="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indoorSoil"
+        android:textColor="#AAC2A9"
+        android:paddingTop="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indoorWater"
+        android:textColor="#AAC2A9"
+        android:paddingTop="16dp"
+        />
 
 </LinearLayout>
